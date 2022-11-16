@@ -1,0 +1,19 @@
+.title{
+    background-color: aqua;
+    margin-right: 1035px;
+    border-radius: 10px;
+}
+
+.title:hover{
+    background-color: aquamarine;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 3px;
+   
+}
+
+label{
+    font-size: 20px;
+}

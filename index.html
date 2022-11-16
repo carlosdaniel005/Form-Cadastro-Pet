@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <h1 class="title">Cadastre seu pet aqui</h1>
+    <form>
+        <p><label for="campo_registroanimal">Nome:</label>
+        <input id="campo_registroanimal" type="text" required></input></p>
+
+            <p><input type="radio" value="c" name="pet">Canino</input></p>
+            <p><input type="radio" value="f" name="pet">Felino</input></p>
+
+                <input type="checkbox" name="obrigatoria"value="peq">Pequeno</input>
+                <input type="checkbox" name="obrigatoria"value="med">Medio</input>
+                <input type="checkbox" name="obrigatoria"value="gra">Grande</input> <br><br>
+            
+                <p><label for="campo_raça">Raça: </label>
+                    <input id="campo_raça" type="text" placeholder="Raça do seu pet" required></input></p>
+                    
+                    <p><label for="campo_numerodepets">Número: </label>
+                        <input id="campo_numerodepets" type="number" placeholder="Quantidade de pets" required></input></p>
+
+                        <p><label for="campo_endereço">Endereço: </label>
+                            <input type="tetxt" id="campo_endereço" required</p>
+
+                        <p><label for="campo_bairro">Bairro: </label>
+                            <input type="tetxt" id="campo_endereço" required</p>
+
+                        <p><label for="campo_numerodacasa">Número: </label>
+                        <input type="text" id="campo_numerodacasa" placeholder="número da casa" required</p>
+
+                        <p><label for="campo_responsavel">Responsável: </label>
+                        <input type="text" id="campo_responsavel" placeholder="quem irá receber o pet" required</p>
+
+                        <p><label for="campo_numerocelular">Número do Telefone: </label>
+                        <input type="text" id="campo_numerocelular" placeholder="ex 55 11 99999-9999" required</p>
+
+                        <p><label for="campo_email">Email: </label>
+                        <input type="email" id="campo_email" required</p> <br><br>
+
+                        <Textarea name="Caracter[istica do animal" cols="55" rows="17"></Textarea> <br><br>
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar formulário">
+                    
+                    
+    </form>
+</body>
+</html>
