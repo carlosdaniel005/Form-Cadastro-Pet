@@ -1,7 +1,15 @@
+*{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+
 .title{
+    text-align: center;
     background-color: aqua;
-    margin-right: 1035px;
     border-radius: 10px;
+    padding: 20px;
 }
 
 .title:hover{
